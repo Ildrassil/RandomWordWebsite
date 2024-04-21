@@ -68,8 +68,6 @@ x
 HBackend/src/main/java/org/raven51/backend/Controller/WordController.java,a/8/a83989e349097a5a92a0e72801d6bc734bcda832
 W
 'frontend/src/components/WordDisplay.tsx,d/1/d17a45eee0269ba7701a705c44bcaa0fcdc85ad5
-o
-?Backend/src/main/java/org/raven51/backend/config/WebConfig.java,e/4/e428228d7d3225e46cf9119bb9579ab51e8c292a
 w
 G.idea/sonarlint/issuestore/a/1/a12b0e66474192f8cb9a2db83f26413a588dec1d,d/a/da89ca53fd631470b2abfe064e2a2635a39a7032
 w
@@ -118,8 +116,6 @@ w
 G.idea/sonarlint/issuestore/9/0/90c068302e8f67d715a544570fc20ecda9b598c2,7/1/7199cab002027a4efc09441fe2dd2ca197234c89
 w
 G.idea/sonarlint/issuestore/9/1/91e522be11677dbeaea3b85493b4868d2728cb6c,4/d/4d5c72229fbef22f80009972e4c714981e1dc9fd
-\
-,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
 w
 G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
 w
@@ -198,3 +194,5 @@ w
 G.idea/sonarlint/issuestore/4/8/48948d12e19f8e63a1edb248731a0b14d5826cc0,3/a/3a5fd1e2a6d121ca644f7eba1b08b6d098e8a9e0
 w
 G.idea/sonarlint/issuestore/d/1/d17a45eee0269ba7701a705c44bcaa0fcdc85ad5,5/7/57d1424f301bebac14b350bfc4680335e0c064b6
+z
+JBackend/src/main/java/org/raven51/backend/Controller/WordController 2.java,a/9/a9e054485f8329d35252f6d713a5596776e30e93

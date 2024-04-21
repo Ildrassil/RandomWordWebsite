@@ -33,7 +33,7 @@ const WordDisplay: React.FC = () => {
         <div>
             {!loop&&<button onClick={toggleLoop}>Start</button>}
             {loop&&<button onClick={toggleLoop}>Stop</button>}
-            <p>Current Word: {word}</p>
+            <p className={"Word"}>Current Word: {word}</p>
         </div>
     );
 };

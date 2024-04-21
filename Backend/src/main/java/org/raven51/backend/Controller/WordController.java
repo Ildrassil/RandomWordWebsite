@@ -26,7 +26,7 @@ public class WordController {
         this.template = template;
     }
 
-    @PostMapping("/start")
+    @PostMapping("/toggle")
     public void toggleLoop() {
         if (running.get()) {
             if (scheduler != null) {
