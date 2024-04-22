@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import sockJs from 'sockjs-client';
+import SockJs from 'sockjs-client';
 import Stomp from 'webstomp-client';
 
 const WordDisplay: React.FC = () => {
@@ -7,7 +7,7 @@ const WordDisplay: React.FC = () => {
     const [loop, setLoop] = useState(false);
 
     useEffect(() => {
-        const socket = new sockJs('http://localhost:8080/ws');
+        const socket = new SockJs('http://localhost:8080/ws');
         const stompClient = Stomp.over(socket);
 
         stompClient.connect({}, () => {
