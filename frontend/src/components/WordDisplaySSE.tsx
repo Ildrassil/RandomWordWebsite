@@ -37,14 +37,14 @@ export const WordDisplaySSE = () => {
     }
 
     return (
-        <div>
-            <h1 className={"mb-5 text-xl"}>Real-time Word Display</h1>
+        <div className={"justify-center align-middle items-center text-center"}>
+            <h1 className={"mb-5 text-xl "}>Real-time Word Display</h1>
             {!trigger&&<button
-                className={"delay-50 transition-all active:p-10 hover:p-10 shadow-buttonOut hover:shadow-buttonIn active:shadow-buttonIn" +
+                className={"delay-50 transition-all active:px-12 hover:px-12 shadow-buttonOut hover:shadow-buttonIn active:shadow-buttonIn" +
                     "text-center w-fit py-4 px-10 text-2xl item-center rounded-xl"} onClick={handleStart}>Start
             </button>}
             {trigger&&<button
-                className={"delay-50 transition-all active:p-10 hover:p-10 shadow-buttonOut hover:shadow-buttonIn active:shadow-buttonIn" +
+                className={"delay-50 transition-all active:px-12 hover:px-12 shadow-buttonIn hover:shadow-buttonOut active:shadow-buttonOut" +
                     "text-center w-fit py-4 px-10 text-2xl item-center rounded-xl"} onClick={handleStop}>Stop
             </button>}
             <p className={"my-2 text-lg text-textHeader"}>Current Word: </p>
