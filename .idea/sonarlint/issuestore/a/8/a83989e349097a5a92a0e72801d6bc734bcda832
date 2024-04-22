@@ -1,13 +1,4 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ÜäóJ$ad73a8de-ee7b-4196-afeb-a6d3d0604e26
-}
-java:S1612("AReplace this lambda with method reference 'this::sendRandomWord'.(¾À´ÅJ$2506200b-66b9-4c5b-86b2-073376c27d0f
-
-java:S1128"TRemove this unused import 'org.springframework.messaging.handler.annotation.SendTo'.(÷æéñJ$9bd45e98-8d35-4ff7-8c66-dd61c072781a
-‘
-java:S1128"PRemove this unused import 'org.springframework.scheduling.annotation.Scheduled'.(‚¡®ÜûÿÿÿÿJ$77fe55ed-9dbb-4976-a3ac-7dc773bdbdd8
-‡
-java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—ÖùÿÿÿÿJ$25315236-0961-4ca4-954e-3d90b185d4bd
-{
-java:S1128
-":Remove this unused import 'java.util.concurrent.Executor'.(÷ı¶ŒúÿÿÿÿJ$825f4fea-ff5c-436c-be81-1bb6ce5bf9e1
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Üäó8„»û ğ1J$53af5635-1ccb-4071-830c-465ce28afd6d
+„
+java:S1612#"AReplace this lambda with method reference 'this::sendRandomWord'.(¾À´Å8“»û ğ1J$88b7f011-07a3-4158-b151-3f71fdd08a59
