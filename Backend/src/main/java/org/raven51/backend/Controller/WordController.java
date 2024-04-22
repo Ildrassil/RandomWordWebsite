@@ -1,13 +1,8 @@
 package org.raven51.backend.Controller;
 
-import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.Random;
-import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -37,7 +32,7 @@ public class WordController {
         }else {
             running.set(true);
             scheduler = Executors.newSingleThreadScheduledExecutor();
-            scheduler.scheduleAtFixedRate(() -> sendRandomWord(), 0, 5, TimeUnit.SECONDS);
+            scheduler.scheduleAtFixedRate(()-> sendRandomWord(), 0, 5, TimeUnit.SECONDS);
         }
 
     }
