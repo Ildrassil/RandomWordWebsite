@@ -452,3 +452,7 @@ Q.idea/sonarlint/securityhotspotstore/3/0/30f9777ea696a18aa49d3e9967e93a42760652
 Q.idea/sonarlint/securityhotspotstore/3/a/3a5fd1e2a6d121ca644f7eba1b08b6d098e8a9e0,6/0/600f6a6cb81b045193189a1f180171876ac5bd64
 w
 G.idea/sonarlint/issuestore/5/3/5319de784935a8ab99b0d0c77dbb4629b93525bc,d/e/de7a3d1aae4600cb2966cc8ed92a5eb293b26d06
+K
+frontend/tailwind.config.js,e/f/ef5a90fd36dd52866b87125460df93ff827f7beb
+J
+frontend/postcss.config.js,2/b/2b6b07f21f4b86a668563572a541f1dfaaa7ada8
