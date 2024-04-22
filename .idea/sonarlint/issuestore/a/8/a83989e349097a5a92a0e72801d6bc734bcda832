@@ -1,4 +1,4 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Üäó8„»û ð1J$53af5635-1ccb-4071-830c-465ce28afd6d
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Üäó8„»û ð1J$38315ecb-964d-4cb8-af42-31abfd84923d
 „
-java:S1612#"AReplace this lambda with method reference 'this::sendRandomWord'.(¾À´Å8“»û ð1J$88b7f011-07a3-4158-b151-3f71fdd08a59
+java:S1612("AReplace this lambda with method reference 'this::sendRandomWord'.(¾À´Å8ØÊ…¦ð1J$4388d1e2-4ac2-444e-a273-e098c37d2ea7

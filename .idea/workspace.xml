@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c055660f-df93-4ecb-8db2-75eea8a20bdf" name="Changes" comment="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js">
+    <list default="true" id="c055660f-df93-4ecb-8db2-75eea8a20bdf" name="Changes" comment="Random Word out of Array:&#10;&#10;-SSE Connection immer noch Errorlastig">
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/org/raven51/backend/Controller/WordControllerSSE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ecb1c8a29889bef54984e71bda1f68d4a6c7336" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83374330748bec7e296364a78ea9469db52b1526" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a83989e349097a5a92a0e72801d6bc734bcda832" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a83989e349097a5a92a0e72801d6bc734bcda832" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9e054485f8329d35252f6d713a5596776e30e93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b026b7c5d4222928769ccd8851f0d9b3123a5d17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4ecb1c8a29889bef54984e71bda1f68d4a6c7336" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/3/83374330748bec7e296364a78ea9469db52b1526" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a9e054485f8329d35252f6d713a5596776e30e93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b026b7c5d4222928769ccd8851f0d9b3123a5d17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/org/raven51/backend/Controller/WordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/org/raven51/backend/config/WebSocketConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/WordDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WordDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/WordDisplay 2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WordDisplaySSE.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/WordDisplay.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3e49ac765ada95edf35602c0e0b11102bbf95500" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,30 +57,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BackendApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jakobschneider/Desktop/Projekte/Raven51/RandomWordWebsite/frontend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.BackendApplication.executor": "Run",
+    "git-widget-placeholder": "SSETry",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/jakobschneider/Desktop/Projekte/Raven51/RandomWordWebsite/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -97,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713728798612</updated>
       <workItem from="1713728799747" duration="4305000" />
-      <workItem from="1713734506667" duration="3521000" />
+      <workItem from="1713734506667" duration="3801000" />
+      <workItem from="1713767212947" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started">
       <option name="closed" value="true" />
@@ -171,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713761169422</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js&#10;- Neomorphism &#10;-Einfache transition Button">
+      <option name="closed" value="true" />
+      <created>1713767148547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713767148547</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js&#10;- Neomorphism &#10;-Einfache transition Button">
+      <option name="closed" value="true" />
+      <created>1713767183751</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713767183751</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +222,8 @@
     <MESSAGE value="Getting Started" />
     <MESSAGE value="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)" />
     <MESSAGE value="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js" />
+    <MESSAGE value="Random Word out of Array:&#10;&#10;- Initallised Websocket&#10;- React+Vite+ Typecript&#10;- fixed Bug CORS&#10;- still need CSS to calibrate&#10;- WordController(REST)&#10;- TailwindCss Config and postcss.config.js&#10;- Neomorphism &#10;-Einfache transition Button" />
+    <MESSAGE value="Random Word out of Array:&#10;&#10;-SSE Connection immer noch Errorlastig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random Word out of Array:&#10;&#10;-SSE Connection immer noch Errorlastig" />
   </component>
 </project>

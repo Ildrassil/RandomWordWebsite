@@ -75,8 +75,6 @@ G.idea/sonarlint/issuestore/c/f/cf4c55591ce297ed3d6694c12c712af209667860,3/f/3f
 w
 G.idea/sonarlint/issuestore/b/9/b9c5384815ed26f7912bd4d34cab45985cb9a0cd,f/d/fd3cd0f65e50e10ad7b66e6d1e826037a725fd7a
 w
-G.idea/sonarlint/issuestore/b/b/bb00f8f019fee171f8cca8600a7576bf524d6ab6,b/0/b026b7c5d4222928769ccd8851f0d9b3123a5d17
-w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec
 w
 G.idea/sonarlint/issuestore/a/d/ad57e5b0ce24db6471ce66741d0a6ced3e07a243,a/5/a557dbd415d1cc5108c0ca2951bf55acbd004efb
@@ -179,23 +177,17 @@ Q.idea/sonarlint/securityhotspotstore/8/4/84231099d9a06b2d88c9279cd7ff80b7f1c107
 Å
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 Å
-Q.idea/sonarlint/securityhotspotstore/e/4/e428228d7d3225e46cf9119bb9579ab51e8c292a,8/3/83374330748bec7e296364a78ea9469db52b1526
-Å
 Q.idea/sonarlint/securityhotspotstore/9/1/91e522be11677dbeaea3b85493b4868d2728cb6c,c/5/c5748928b6e7a0a99524ea2608914babf25c1c3a
 Å
 Q.idea/sonarlint/securityhotspotstore/9/a/9a1715d06494ea7aa881e88967fc390b8824fb16,a/6/a6025af9dd479096e587fa71994045cb2a43d69f
 Å
 Q.idea/sonarlint/securityhotspotstore/9/0/90c068302e8f67d715a544570fc20ecda9b598c2,c/3/c39fa6177b40d775d9aedbc97352118970b2798f
 Å
-Q.idea/sonarlint/securityhotspotstore/4/8/48948d12e19f8e63a1edb248731a0b14d5826cc0,4/e/4ecb1c8a29889bef54984e71bda1f68d4a6c7336
-Å
 Q.idea/sonarlint/securityhotspotstore/d/1/d17a45eee0269ba7701a705c44bcaa0fcdc85ad5,f/f/ffb2c768fff7b77749f06659ac43db64a3355a0e
 w
 G.idea/sonarlint/issuestore/4/8/48948d12e19f8e63a1edb248731a0b14d5826cc0,3/a/3a5fd1e2a6d121ca644f7eba1b08b6d098e8a9e0
 w
 G.idea/sonarlint/issuestore/d/1/d17a45eee0269ba7701a705c44bcaa0fcdc85ad5,5/7/57d1424f301bebac14b350bfc4680335e0c064b6
-z
-JBackend/src/main/java/org/raven51/backend/Controller/WordController 2.java,a/9/a9e054485f8329d35252f6d713a5596776e30e93
 w
 G.idea/sonarlint/issuestore/3/0/30f9777ea696a18aa49d3e9967e93a4276065227,b/7/b74e8c230459235775e2f7c88126ddb0ac14fa2d
 w
@@ -456,3 +448,7 @@ K
 frontend/tailwind.config.js,e/f/ef5a90fd36dd52866b87125460df93ff827f7beb
 J
 frontend/postcss.config.js,2/b/2b6b07f21f4b86a668563572a541f1dfaaa7ada8
+{
+KBackend/src/main/java/org/raven51/backend/Controller/WordControllerSSE.java,b/8/b88091f7a6352cc5fe6bba4b848a3f615f24d5f4
+Z
+*frontend/src/components/WordDisplaySSE.tsx,e/8/e8fd36834c4d49b5db1bdfd790aa857dcbd9df23
